@@ -7,9 +7,10 @@ import Header from "../components/header/index";
 const font = Space_Grotesk({ subsets: ['latin'] })
 
 export default function App({ Component, pageProps }: AppProps) {
+    // location.host.split('.')[0] == amirkhan
   return (
     <section className={` ${font.className}`}>
-      {/*<Header />*/}
+      <Header />
       <Component {...pageProps} />
     </section>
   );

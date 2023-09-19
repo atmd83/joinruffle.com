@@ -3,11 +3,12 @@ import Image from 'next/image'
 const Hero = () => {
     return (
         <Image
+            className={'rounded-t-lg'}
             sizes="100vw"
             width={300}
             height={300}
             // className="h-auto max-w-full"
-            src="/images/amir-hero.png"
+            src="/images/poster.png"
             alt="image description"
             style={{
                 width: '100%',
