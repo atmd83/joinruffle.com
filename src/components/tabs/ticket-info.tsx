@@ -7,7 +7,7 @@ const TicketInfo = () => {
 
   return (
     <>
-      <div className="p-0 pr-8 pt-8 flex flex-col w-full">
+      <div className="p-0 pr-0 md:pr-8 pt-8 flex flex-col w-full">
         <div className=" font-normal text-black md:text-white text-left">
           <p>December 6th 2023</p>
           <p>Camp and Furnace Liverpool</p>
@@ -60,15 +60,16 @@ const TicketInfo = () => {
               className="
                             mt-4
                             mb-4
-                            py-4 md:py-0
-                            px-0 md:px-4
+                            py-4 md:py-2
+                            px-0 md:px-8
                             w-full
                             md:w-auto
                             text-center
-                            bg-black md:bg-white
-                            text-white md:text-black
+                            bg-[#09f8bf]
+                            hover:bg-pink
+                            text-black
                             font-bold rounded-full p
-                            transition duration-500 ease select-none hover:bg-gray-300 focus:outline-none focus:shadow-outline"
+                            transition duration-500 ease select-none focus:outline-none focus:shadow-outline"
             >
               BUY YOUR TICKET NOW
             </button>
