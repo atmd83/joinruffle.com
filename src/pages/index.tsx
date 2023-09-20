@@ -13,14 +13,14 @@ export default function Home() {
   return (
     <main className={`flex min-h-screen flex-col items-center p-4`}>
       <Hero />
-<Intro />
+        <Intro />
 
 
-        <Tabs active={activeTab} changeActiveTab={setActiveTab}>
-            <TicketInfo />
-            <EventInfo />
-            <Gallery />
-        </Tabs>
+        {/*<Tabs active={activeTab} changeActiveTab={setActiveTab}>*/}
+        {/*    <TicketInfo />*/}
+        {/*    <EventInfo />*/}
+        {/*    <Gallery />*/}
+        {/*</Tabs>*/}
     </main>
   )
 }
