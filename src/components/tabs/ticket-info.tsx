@@ -84,11 +84,10 @@ const TicketInfo = () => {
 
             <Modal open={hotelOpen} setOpen={setHotelOpen} title={'More Information'}>
                 <section className={'text-black text-left'}>
-                    <p className={'mb-4 text-lg'}>Lorem ipsum dolor sit amet.</p>
+                    <p className={'mb-4 text-lg'}>Looking for somewhere to say?</p>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Why not treat yourself to a Luxury Suite at the Arthouse Hotel, Liverpool. This can be booked as an additional extra when you purchase your ticket.
+                        Our suites sleep between 4 and 14 people, priced at between £178 and £992 a night.
                     </p>
 
                     <div className="p-0 grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">

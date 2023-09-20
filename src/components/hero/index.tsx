@@ -10,7 +10,7 @@ const Hero = () => {
                 width={300}
                 height={300}
                 // className="h-auto max-w-full"
-                src={"/images/poster.png" }
+                src={"/images/amir.gif" }
                 alt="image description"
                 style={{
                     width: '100%',
