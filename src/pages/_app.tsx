@@ -10,7 +10,9 @@ const font = Space_Grotesk({ subsets: ['latin'] })
 export default function App({ Component, pageProps }: AppProps) {
     // location.host.split('.')[0] == amirkhan
   return (
-    <section className={` ${font.className}`}>
+    <section style={{
+        // alignItems: 'center',
+        height: '100vh', display: 'flex'}} className={`bg-[#744dde] ${font.className}`}>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-2X3YCZ0ZJ8" />
         <Script id="google-analytics">
             {`
@@ -22,7 +24,7 @@ export default function App({ Component, pageProps }: AppProps) {
         `}
         </Script>
 
-      <Header />
+      {/*<Header />*/}
       <Component {...pageProps} />
     </section>
   );

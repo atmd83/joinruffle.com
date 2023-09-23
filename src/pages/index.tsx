@@ -11,16 +11,24 @@ export default function Home() {
     const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <main className={`flex min-h-screen flex-col items-center p-4`}>
-      <Hero />
-        <Intro />
-
-
-        {/*<Tabs active={activeTab} changeActiveTab={setActiveTab}>*/}
-        {/*    <TicketInfo />*/}
-        {/*    <EventInfo />*/}
-        {/*    <Gallery />*/}
-        {/*</Tabs>*/}
-    </main>
+      <a
+          href={
+              "https://www.wtm360.co.uk/amir-khan-1695128410-amir-khan-live-tour-podcast-with-steve-bunce.html"
+          }
+          target={"_blank"}
+      >
+        <img className={'w-full cursor-pointer'} src={'/images/app-image.jpg'} alt={''} />
+      </a>
+    // <main className={`flex min-h-screen flex-col items-center p-4`}>
+    //   {/*<Hero />*/}
+    //   {/*  <Intro />*/}
+    //
+    //
+    //     {/*<Tabs active={activeTab} changeActiveTab={setActiveTab}>*/}
+    //     {/*    <TicketInfo />*/}
+    //     {/*    <EventInfo />*/}
+    //     {/*    <Gallery />*/}
+    //     {/*</Tabs>*/}
+    // </main>
   )
 }
