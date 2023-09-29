@@ -6,7 +6,9 @@ const Modal = ({open, setOpen, children, title}: any) => {
                 <div className="w-full">
                     <div className="m-4 my-4 max-w-[900px] max-h-[800px] mx-auto">
                         <div className="p-4 m-4" >
-                            <h1 className="mb-4 text-3xl text-black font-extrabold">{title}</h1>
+                            {(title) && (
+                                <h1 className="mb-4 text-3xl text-black font-extrabold">{title}</h1>
+                            )}
                             {children}
                         </div>
                         <div className="space-y-4 pl-8 pr-8">

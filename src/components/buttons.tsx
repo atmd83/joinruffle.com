@@ -18,7 +18,7 @@ const Buttons = ({mobile = false}: any) => {
     const [numberOfPeople, setNumberOfPeople] = useState("");
     const [require_accommodation, setRequireAccommodation] = useState(false);
 
-    const onSubmit = async (e) => {
+    const onSubmit = async (e: any) => {
         e.preventDefault();
         await submit({
             name,
@@ -156,18 +156,19 @@ const Buttons = ({mobile = false}: any) => {
                 </section>
             </Modal>
 
-            <Modal open={openVIP} setOpen={setOpenVIP} title={"Win VIP experience"}>
-                <section className={"text-black text-left"}>
-
-
-                </section>
+            <Modal open={openVIP} setOpen={setOpenVIP}>
+                    {/*<script*/}
+                    {/*        src='https://eocampaign1.com/form/58036e8e-5ba2-11ee-a1a7-91d7cae36534.js'*/}
+                    {/*        data-form="58036e8e-5ba2-11ee-a1a7-91d7cae36534">*/}
+                    {/*</script>*/}
             </Modal>
+
             {(submitted) && (
                 <div id="toast-default"
                      style={{top: '2rem', right: '2rem'}}
                      className="flex fixed items-center w-full max-w-xs p-4 text-gray-500 bg-white rounded-lg shadow dark:text-gray-400 dark:bg-gray-800"
                      role="alert">
-                    <div className="ml-0 text-black text-sm font-normal">Thanks. We'll be in touch</div>
+                    <div className="ml-0 text-black text-sm font-normal">Thanks. We will be in touch</div>
                 </div>
             )}
         </>

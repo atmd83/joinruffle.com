@@ -11,10 +11,10 @@ const Intro = () => {
                 </h1>
 
                 <p className={'mb-4'}>Camp and Furnace, Liverpool</p>
-                <backquote className={'mb-4'}>
+                <blockquote className={'mb-4'}>
                     &ldquo;I went to see Mike Tyson’s live show in San Francisco and it totally blew me away. It was a brilliant, inspiring night out. Funny, sad, revealing. It had everything. Right then I knew what I wanted to do for my own live show...make it massive!&rdquo;
                     <cite> - Amir Khan</cite>
-                </backquote>
+                </blockquote>
 
                 <p className={'mb-4 mt-4 font-bold text-lg'}>Who Do You Think I Am? With special guests and the best live music.</p>
                 <ul className={'mb-4'}>
