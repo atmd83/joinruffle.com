@@ -157,7 +157,7 @@ const Buttons = ({mobile = false}: any) => {
             </Modal>
 
             <Modal open={openVIP} setOpen={setOpenVIP}>
-                    <script defer
+                    <script async
                             src='https://eocampaign1.com/form/58036e8e-5ba2-11ee-a1a7-91d7cae36534.js'
                             data-form="58036e8e-5ba2-11ee-a1a7-91d7cae36534">
                     </script>
