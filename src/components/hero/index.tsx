@@ -17,7 +17,7 @@ const Hero = () => {
 
     return (
         <>
-        <section className={'relative'}>
+        <section className={'relative w-full'}>
             <Image
                 className={'hidden md:block rounded-lg'}
                 sizes="100vw"
@@ -32,7 +32,7 @@ const Hero = () => {
                 }}
             />
             <Image
-                className={''}
+                className={'hidden md:block'}
                 sizes="50vw"
                 width={300}
                 height={300}
@@ -56,7 +56,7 @@ const Hero = () => {
                 width={300}
                 height={300}
                 // className="h-auto max-w-full"
-                src={"/images/background.png" }
+                src={"/images/mobile-background.png" }
                 alt="image description"
                 style={{
                     width: '100%',
