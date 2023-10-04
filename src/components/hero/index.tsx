@@ -18,7 +18,7 @@ const Hero = () => {
     return (
         <>
         <section className={'relative w-full'}>
-            <a className={'absolute ml-4 mt-4'} href={''} target={'_blank'}>
+            <a className={'hidden md:block absolute ml-4 mt-4'} href={''} target={'_blank'}>
                 <img width={'100'} src={'/images/sbo-logo-white.png'} alt={''} />
             </a>
             <Image
