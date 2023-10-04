@@ -7,7 +7,7 @@ const Intro = () => {
                 <h1 className={'text-black font-medium text-3xl tracking-tight mb-4 md:mb-4'}>Amir Khan &ldquo;Who Do You Think I Am?&rdquo;</h1>
 
                 <h1 className={'text-black font-medium text-2xl tracking-tight mb-4 md:mb-4'}>
-                    The Live Tour Podcast With Steve Bunce <br/>Plus Very Special Guests From Boxing and Entertainment<br/><br/>Live Music & DJ's<br/><small>Wednesday 6th December 2023</small>
+                    The Live Tour Podcast With Steve Bunce <br/>Plus Very Special Guests From Boxing and Entertainment<br/><br/>Live Music & DJs<br/><small>Wednesday 6th December 2023</small>
                 </h1>
 
                 <p className={'mb-4'}>Camp and Furnace, Liverpool<br/><small>(The home of Eurovision 2023)</small></p>
@@ -31,7 +31,7 @@ const Intro = () => {
             <div className="text-black basis-full md:basis-1/2">
                 <h3 className={'text-2xl mb-4'}>Limited VIP Experiences available from £120</h3>
 
-                <p className={'mb-4'}>Including priority seats nearer to the front, a meet and greet and photo with Amir, a free drink on arrival and a ticket to the VIP after party with DJ's and Live Entertainment*</p>
+                <p className={'mb-4'}>Including priority seats nearer to the front, a meet and greet and photo with Amir, a free drink on arrival and a ticket to the VIP after party with DJs and Live Entertainment*</p>
 
                 <h3 className={'text-xl mb-0'}>General Access Tickets are £70.</h3>
                 <p className={'mb-4'}><small>Add on the Amir Meet & Greet & Photo for £70 below or pay on the night**</small></p>
