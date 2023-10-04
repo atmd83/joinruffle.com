@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --white: #fff;
-  --background: #292627;
+  --white: #e4e4de;
+  --background: #e4e4de;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --white: #fff;
-    --background: #292627;
+    --white: #e4e4de;
+    --background: #e4e4de;
     --green: #A4D5A9;
   }
 }
@@ -18,6 +18,6 @@
 body {
   color: var(--white);
   background: var(--background);
-  font-weight: 100;
-  font-size: 14px;
+  font-weight: 300;
+  font-size: 16px;
 }
