@@ -2,7 +2,7 @@ import TicketInfo from "../tabs/ticket-info";
 
 const Intro = () => {
     return (
-        <div className="mt-4 p-4 rounded-lg flex flex-col md:flex-row w-full bg-[#fff] md:bg-white">
+        <div className="mt-0 p-4 flex flex-col md:flex-row w-full bg-[#fff] md:bg-white">
             <div className="text-black basis-full md:basis-1/2">
                 <h1 className={'text-black font-medium text-3xl tracking-tight mb-4 md:mb-4'}>Amir Khan &ldquo;Who Do You Think I Am?&rdquo;</h1>
 

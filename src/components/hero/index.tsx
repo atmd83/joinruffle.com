@@ -18,8 +18,11 @@ const Hero = () => {
     return (
         <>
         <section className={'relative w-full'}>
+            <a className={'absolute ml-4 mt-4'} href={''} target={'_blank'}>
+                <img width={'100'} src={'/images/sbo-logo-white.png'} alt={''} />
+            </a>
             <Image
-                className={'hidden md:block rounded-lg'}
+                className={'hidden md:block'}
                 sizes="100vw"
                 width={300}
                 height={300}
@@ -51,7 +54,7 @@ const Hero = () => {
 
 
             <Image
-                className={'block md:hidden rounded-lg'}
+                className={'block md:hidden'}
                 sizes="100vw"
                 width={300}
                 height={300}
