@@ -13,7 +13,7 @@ export default function Home() {
   return (
       <a
           href={
-              "https://www.wtm360.co.uk/amir-khan-1695128410-amir-khan-live-tour-podcast-with-steve-bunce.html"
+              "https://www.wtm360.co.uk/amir-khan-1695128410-amir-khan-live-podcast-event-with-steve-bunce.html"
           }
           target={"_blank"}
       >
