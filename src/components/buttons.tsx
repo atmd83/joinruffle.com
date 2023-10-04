@@ -54,25 +54,25 @@ const Buttons = ({mobile = false}: any) => {
                 <a href={'https://www.wtm360.co.uk/amir-khan-1695128410-amir-khan-live-podcast-event-with-steve-bunce.html'} target={'_blank'}>
                     <button className="w-full mb-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded inline-flex items-center">
                         <img className={'mr-4'}  width={'25'} src={'/images/seats.png'} alt={''} />
-                        Book best seats
+                        BOOK BEST SEATS
                     </button>
                 </a>
 
                 <a href={'https://lounges.tv/lounge/details/4pCnx1fq2C'} target={'_blank'}>
                     <button className="w-full mb-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded inline-flex items-center">
                         <img className={'mr-4'}  width={'25'} src={'/images/watch.png'} alt={''} />
-                        Watch online
+                        WATCH ONLINE
                     </button>
                 </a>
 
                 <button onClick={() => setOpenTravel(true)} className="w-full mb-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded inline-flex items-center">
                     <img className={'mr-4'}  width={'25'} src={'/images/seats.png'} alt={''} />
-                    Travel together
+                    STAY TOGETHER
                 </button>
 
                 <button onClick={() => setOpenVIP(true)} className="w-full bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded inline-flex items-center">
                     <img className={'mr-4'}  width={'25'} src={'/images/win.png'} alt={''} />
-                    Win VIP experience
+                    WIN A VIP EXPERIENCE
                 </button>
             </aside>
 
