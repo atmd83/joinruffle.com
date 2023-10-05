@@ -46,33 +46,29 @@ const Buttons = ({mobile = false}: any) => {
 
     return (
         <>
-            <aside className={`${mobile ? 'block md:hidden relative rounded-lg mt-4 p-4 bg-black' : 'hidden md:block absolute'}`} style={{
+            <aside className={`${mobile ? 'block md:hidden relative rounded-lg mt-4 p-4' : 'hidden md:block absolute'}`} style={{
                 bottom: mobile ? '0' : '4rem',
                 left: mobile ? '0' : '2rem',
                 width: mobile ? '100%' : '30%'
             }}>
-                <a href={'https://www.wtm360.co.uk/amir-khan-1695128410-amir-khan-live-tour-podcast-with-steve-bunce.html'} target={'_blank'}>
-                    <button className="w-full mb-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded inline-flex items-center">
-                        <img className={'mr-4'}  width={'25'} src={'/images/seats.png'} alt={''} />
-                        Book best seats
+                <a href={'https://www.wtm360.co.uk/amir-khan-1695128410-amir-khan-live-podcast-event-with-steve-bunce.html'} target={'_blank'}>
+                    <button style={{background: mobile ? '#a809a4' : 'transparent', backgroundPosition: '10px', backgroundImage: 'url(/images/seats.png)', backgroundSize: '30px', backgroundRepeat: 'no-repeat', justifyContent: 'center'}}  className="w-full mb-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border-2 border-blue-500 hover:border-transparent rounded inline-flex items-center">
+                        BOOK BEST SEATS
                     </button>
                 </a>
 
                 <a href={'https://lounges.tv/lounge/details/hwyZdjPL6v'} target={'_blank'}>
-                    <button className="w-full mb-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded inline-flex items-center">
-                        <img className={'mr-4'}  width={'25'} src={'/images/watch.png'} alt={''} />
-                        Watch online
+                    <button style={{background: mobile ? '#a809a4' : 'transparent', backgroundPosition: '10px', backgroundImage: 'url(/images/watch.png)', backgroundSize: '30px', backgroundRepeat: 'no-repeat', justifyContent: 'center'}} className="w-full mb-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border-2 border-blue-500 hover:border-transparent rounded inline-flex items-center">
+                        WATCH ONLINE
                     </button>
                 </a>
 
-                <button onClick={() => setOpenTravel(true)} className="w-full mb-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded inline-flex items-center">
-                    <img className={'mr-4'}  width={'25'} src={'/images/seats.png'} alt={''} />
-                    Travel together
+                <button style={{background: mobile ? '#a809a4' : 'transparent', backgroundPosition: '10px', backgroundImage: 'url(/images/seats.png)', backgroundSize: '30px', backgroundRepeat: 'no-repeat', justifyContent: 'center'}} onClick={() => setOpenTravel(true)} className="w-full mb-4 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border-2 border-blue-500 hover:border-transparent rounded inline-flex items-center">
+                    STAY TOGETHER
                 </button>
 
-                <button onClick={() => setOpenVIP(true)} className="w-full bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded inline-flex items-center">
-                    <img className={'mr-4'}  width={'25'} src={'/images/win.png'} alt={''} />
-                    Win VIP experience
+                <button style={{background: mobile ? '#a809a4' : 'transparent', backgroundPosition: '10px', backgroundImage: 'url(/images/win.png)', backgroundSize: '30px', backgroundRepeat: 'no-repeat', justifyContent: 'center'}} onClick={() => setOpenVIP(true)} className="w-full bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border-2 border-blue-500 hover:border-transparent rounded inline-flex items-center">
+                    WIN A VIP EXPERIENCE
                 </button>
             </aside>
 

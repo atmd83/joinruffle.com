@@ -2,15 +2,15 @@ import TicketInfo from "../tabs/ticket-info";
 
 const Intro = () => {
     return (
-        <div className="mt-4 p-4 rounded-lg flex flex-col md:flex-row w-full bg-[#fff] md:bg-white">
+        <div className="mt-0 p-4 flex flex-col md:flex-row w-full bg-[#fff] md:bg-white">
             <div className="text-black basis-full md:basis-1/2">
                 <h1 className={'text-black font-medium text-3xl tracking-tight mb-4 md:mb-4'}>Amir Khan &ldquo;Who Do You Think I Am?&rdquo;</h1>
 
                 <h1 className={'text-black font-medium text-2xl tracking-tight mb-4 md:mb-4'}>
-                    The Live Tour Podcast With Steve Bunce <br/>Plus Very Special Guests From Boxing and Entertainment Wednesday 6th December 2023
+                    The Live Tour Podcast With Steve Bunce <br/>Plus Very Special Guests From Boxing and Entertainment<br/><br/>Live Music & DJs<br/><small>Wednesday 6th December 2023</small>
                 </h1>
 
-                <p className={'mb-4'}>Camp and Furnace, Liverpool</p>
+                <p className={'mb-4'}>Camp and Furnace, Liverpool<br/><small>(The home of Eurovision 2023)</small></p>
                 <blockquote className={'mb-4'}>
                     &ldquo;I went to see Mike Tyson’s live show in San Francisco and it totally blew me away. It was a brilliant, inspiring night out. Funny, sad, revealing. It had everything. Right then I knew what I wanted to do for my own live show...make it massive!&rdquo;
                     <cite> - Amir Khan</cite>
@@ -18,20 +18,23 @@ const Intro = () => {
 
                 <p className={'mb-4 mt-4 font-bold text-lg'}>Who Do You Think I Am? With special guests and the best live music.</p>
                 <ul className={'mb-4'}>
-                    <li className={'mb-2'}> Round One: The Early Years</li>
-                    <li className={'mb-2'}> Round Two: The Professional Journey</li>
+                    <li className={'mb-2'}><p>Round One: The Early Years</p><p><small>The public and media make their case via Steve Bunce and Amir gives them his full and Frank replies.</small></p></li>
+                    <li className={'mb-2'}><p>Round Two: The Professional Journey</p><p><small>With the aid of his video screen and spurred on by Steve Bunce, Amir walks us through those key moments with humour and raw honesty</small></p></li>
                     <li className={'mb-2'}>Intermission</li>
-                    <li className={'mb-2'}>Round Three: Real Fight Stories</li>
-                    <li className={'mb-2'}>Behind-the-Scenes Insights and Fan Q&A</li>
-                    <li className={'mb-2'}>Round Four : Legacy and Future Ambitions</li>
-                    <li className={'mb-2'}>Grand Finale: A Message of Inspiration</li>
+                    <li className={'mb-2'}><p>Round Three: Real Fight Stories</p><p><small>Featuring special guests revealing behind-the-ropes true stories, jaw-dropping facts fight fans knew nothing about…</small></p></li>
+                    <li className={'mb-2'}><p>Round Four: Fan Q&A</p><p><small>No holds barred and no quarter given as Amir interacts with the audience, any question is a good question - to submit yours you need to register for the competition below and - time permitting - your question will be included in the Q&A.</small></p></li>
+                    <li className={'mb-2'}><p>Round Five: Legacy and Future Ambitions</p></li>
+                    <li className={'mb-2'}><p>Grand Finale: A Message of Inspiration</p></li>
                 </ul>
 
             </div>
             <div className="text-black basis-full md:basis-1/2">
-                <h3 className={'text-2xl mb-8'}>In an electrifying first for boxing, superstar former 2 weight world champion and youngest ever boxing Olympic medallist Amir Khan takes to the stage for his first ever live shows as he launches his new podcast series.</h3>
+                <h3 className={'text-2xl mb-4'}>Limited VIP Experiences available from £120</h3>
 
-                <p className={'mb-4'}>Ticket buyers and listeners will be able to step into the thrilling world of one of boxing’s most famous, charismatic and accomplished elite champions.</p>
+                <p className={'mb-4'}>Including priority seats nearer to the front, a meet and greet and photo with Amir, a free drink on arrival and a ticket to the VIP after party with DJs and Live Entertainment*</p>
+
+                <h3 className={'text-xl mb-0'}>General Access Tickets are £70.</h3>
+                <p className={'mb-4'}><small>Add on the Amir Meet & Greet & Photo for £70 below or pay on the night**</small></p>
 
                 <p className={'mb-4'}>
                 While the podcast captures the essence of what makes Amir such a fascinating character, combining it with embarking on his first-ever live tour sees him realise another long-held ambition, to take the stage before a captivated audience, sharing his remarkable journey from humble beginnings to global superstardom with all the trials and tribulations which have happened – and are still happening –along the way.

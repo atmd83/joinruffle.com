@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <section style={{
         alignItems: 'center',
-        height: '100vh', }} className={`bg-[#e4e4de] ${font.className}`}>
+        height: '100vh', }} className={`bg-[#fff] ${font.className}`}>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-2X3YCZ0ZJ8" />
         <Script id="google-analytics">
             {`
@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }: AppProps) {
         `}
         </Script>
 
-      <Header />
+      {/*<Header />*/}
       <Component {...pageProps} />
     </section>
   );
